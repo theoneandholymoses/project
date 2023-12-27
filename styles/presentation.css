@@ -1,0 +1,22 @@
+main{
+    text-align: center;
+}
+
+#btns{
+    margin: 2em;
+}
+
+a{
+    text-decoration: none;
+    background-color: rgb(72, 241, 185);
+    color: azure;
+    font-weight: bolder;
+    padding: .5em;
+    border-radius: 10px;
+    margin: 1em;
+}
+
+a:hover{
+    opacity: .6;
+    transition: .5s;
+}

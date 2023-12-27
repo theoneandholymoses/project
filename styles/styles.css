@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+#gallery,
+header {
+    text-align: center;
+}
+
+#container-footer,
+header {
+    background-color: rgb(17, 16, 16);
+    color: azure;
+    padding: 2em;
+}
+
+#container-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    margin: 2em;
+    box-shadow: 5px 5px 15px gray;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: 0.75s;-
+}
+
+.card:hover{
+    background-color: grey;
+    cursor: pointer;
+    transition: .75s;
+}
+
+#container-gallery {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
